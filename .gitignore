@@ -1,4 +1,7 @@
-.env
-
-
-node_modules
+# Root gitignore for monorepo
+backend/node_modules/
+frontend/node_modules/
+backend/.env
+frontend/.env
+frontend/.env.local
+frontend/build/
